@@ -14,6 +14,23 @@
             line-height: 100px;
             color: white;
         }
+        img{
+            height: 500px;
+            width: 500px;
+            display: block;
+            margin: 200px auto;
+            animation: rotate 5s infinite alternate;
+        }
+        @keyframes rotate {
+            /* 使用frmm to */
+            from {
+                transform: rotate(0deg)
+            }
+
+            to {
+                transform: rotate(360deg)
+            }
+        }
     </style>
 </head>
 <body>
